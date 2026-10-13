@@ -37,12 +37,12 @@ h3 { font-size: 1.15rem; line-height: 1.35; margin: 6px 0 10px; }
   background: linear-gradient(130deg, #4D0016, #800020 78%, #A33A50);
   color: white;
   box-shadow: var(--shadow); }
-.hero .eyebrow, .hero .lead { color: #d1ebfa; }
+.hero .eyebrow, .hero .lead { color: #FBE6EC;; }
 .hero h1 { max-width: 720px; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 .button { display: inline-flex; padding: 11px 18px; align-items: center; justify-content: center; min-height: 42px; border-radius: 10px; font-weight: 700; font-size: .9rem; text-decoration: none; border: 1px solid var(--accent); background: var(--accent); color: white; }
 .button:hover { background: var(--accent-dark); color: white; }
-.button.light { color: #123b57; background: #fff; border-color: #fff; }
+.button.light { color: #4D0016; background: #fff; border-color: #fff; }
 .button.light:hover { background: #dceef7; }
 .button.ghost { color: #fff; background: transparent; border-color: #b6d8ea; }
 .button.ghost:hover { background: rgba(255,255,255,.12); }
