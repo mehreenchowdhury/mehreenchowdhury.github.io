@@ -32,7 +32,11 @@ h3 { font-size: 1.15rem; line-height: 1.35; margin: 6px 0 10px; }
 .lead { max-width: 720px; font-size: 1.09rem; color: var(--muted); margin: 0; }
 .page-intro { padding: 4px 0 40px; }
 .page-intro .lead { max-width: 760px; }
-.hero { border-radius: 22px; padding: clamp(30px, 7vw, 76px); background: linear-gradient(130deg, #102b43, #1a5074 78%, #267da5); color: white; box-shadow: var(--shadow); }
+.hero { border-radius: 22px;
+  padding: clamp(30px, 7vw, 76px);
+  background: linear-gradient(130deg, #4D0016, #800020 78%, #A33A50);
+  color: white;
+  box-shadow: var(--shadow); }
 .hero .eyebrow, .hero .lead { color: #d1ebfa; }
 .hero h1 { max-width: 720px; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
