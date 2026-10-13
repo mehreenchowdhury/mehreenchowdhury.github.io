@@ -1,6 +1,6 @@
 # Your Portfolio Website — Beginner Starter
 
-This is a customizable portfolio website inspired by the structure of Varunan's projects website. This starter is original, not a copy of the other site's source code.
+This is a customizable portfolio website. This starter is original, not a copy of the other site's source code.
 
 ## Files
 - `index.html`: homepage / introduction
