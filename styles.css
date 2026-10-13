@@ -1,14 +1,14 @@
 /* WEBSITE DESIGN SETTINGS: change these colours to customize your site */
 :root {
-  --background: #f7f9fc;
-  --surface: #ffffff;
-  --text: #162b42;
-  --muted: #596c7e;
-  --accent: #2576a6;
-  --accent-dark: #155276;
-  --border: #dce5ed;
-  --soft: #eaf3f8;
-  --shadow: 0 10px 30px rgba(19, 45, 65, 0.06);
+  --background: #FFFAFB;
+  --surface: #FFFFFF;
+  --text: #2D1920;
+  --muted: #75646A;
+  --accent: #800020;
+  --accent-dark: #5C0018;
+  --border: #E8D5DA;
+  --soft: #F9F0F2;
+  --shadow: 0 10px 30px rgba(92, 0, 24, 0.08);
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
