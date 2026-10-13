@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio featuring projects, skills, education, and experience.">
+  <title>Projects | YOUR NAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">&lt;YOUR <span>NAME</span> /&gt;</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a class="contact" href="mailto:hello@example.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-intro">
+      <p class="eyebrow">Projects</p>
+      <h1>Personal & Academic Projects</h1>
+      <p class="lead">A selection of research, academic work, community initiatives, and independent projects. Replace this introduction with your own.</p>
+    </section>
+    <div class="filters" aria-label="Filter projects by category">
+      <button class="filter-btn active" data-filter="all" aria-pressed="true" type="button">All</button>
+      <button class="filter-btn" data-filter="research" aria-pressed="false" type="button">Research</button>
+      <button class="filter-btn" data-filter="academic" aria-pressed="false" type="button">Academic</button>
+      <button class="filter-btn" data-filter="community" aria-pressed="false" type="button">Community</button>
+      <button class="filter-btn" data-filter="personal" aria-pressed="false" type="button">Personal</button>
+    </div>
+    <section class="grid" aria-label="Project cards">
+      <article class="card project-card" data-category="research">
+        <span class="category">Research</span>
+        <h3>Research Literature Review</h3>
+        <p>A sample literature review exploring how everyday activities and environments affect participation.</p>
+        <div class="tags"><span class="tag">Literature review</span><span class="tag">Evidence synthesis</span></div>
+        <details><summary>Read more →</summary><p>Explain your research question, the search approach you used, your findings, and how the findings could influence practice.</p></details>
+      </article>
+      <article class="card project-card" data-category="academic">
+        <span class="category">Academic</span>
+        <h3>Case Study & Intervention Plan</h3>
+        <p>An example of applying a conceptual model, identifying occupational priorities, and developing an intervention plan.</p>
+        <div class="tags"><span class="tag">Case analysis</span><span class="tag">Critical thinking</span></div>
+        <details><summary>Read more →</summary><p>Explain what you assessed, why you chose an approach, and what you learned. Use fictionalized or properly anonymized cases.</p></details>
+      </article>
+      <article class="card project-card" data-category="community">
+        <span class="category">Community</span>
+        <h3>Community Partnership Project</h3>
+        <p>A collaborative project identifying barriers to meaningful participation and proposing community-informed solutions.</p>
+        <div class="tags"><span class="tag">Collaboration</span><span class="tag">Community engagement</span></div>
+        <details><summary>Read more →</summary><p>Describe your role, your team’s approach, and the practical recommendations developed with community members.</p></details>
+      </article>
+      <article class="card project-card" data-category="personal">
+        <span class="category">Personal</span>
+        <h3>Independent Learning Project</h3>
+        <p>An independent project showing your interests, initiative, and newly developed skills.</p>
+        <div class="tags"><span class="tag">Independent work</span><span class="tag">Creativity</span></div>
+        <details><summary>Read more →</summary><p>Outline what motivated you to start, what you created, and how you would improve the project.</p></details>
+      </article>
+    </section>
+    <p id="empty-message" class="empty-message" hidden>No projects found in this category.</p>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 YOUR NAME. Built with HTML, CSS & JavaScript.</p>
+      <div><a href="mailto:hello@example.com">Email</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+    </div>
+  </footer>
+</body>
+</html>
