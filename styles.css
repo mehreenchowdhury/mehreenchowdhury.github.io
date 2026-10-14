@@ -1,4 +1,7 @@
 /* WEBSITE DESIGN SETTINGS: change these colours to customize your site */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
+
 :root {
   --background: #FFFAFB;
   --surface: #FFFFFF;
@@ -232,4 +235,111 @@ main {
   .footer {
     margin-left: 0;
   }
+}
+
+/* ===== BABY PINK WEBSITE THEME ===== */
+
+:root {
+  --background: #FFF4F8;
+  --surface: #FFFFFF;
+  --text: #572F42;
+  --muted: #75586A;
+  --accent: #B65B82;
+  --accent-dark: #75374F;
+  --border: #F0D7E1;
+  --soft: #FCE8EF;
+  --shadow: 0 10px 30px rgba(132, 68, 92, 0.10);
+}
+
+/* FONTS */
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, .brand {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: -0.015em;
+}
+
+/* NAVIGATION */
+.site-header,
+.footer {
+  background: #FFFCFD;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  background: var(--soft);
+  color: var(--accent-dark);
+}
+
+/* HOMEPAGE BANNER */
+.hero {
+  background: linear-gradient(
+    130deg,
+    #FCE0E9,
+    #F7B9CE 75%,
+    #EBA0B9
+  );
+  color: #58283E;
+  border-radius: 26px;
+}
+
+.hero h1 {
+  color: #58283E;
+}
+
+.hero .eyebrow,
+.hero .lead {
+  color: #6A3B50;
+}
+
+/* HOMEPAGE BUTTONS */
+.button.light {
+  background: #75374F;
+  color: white;
+  border-color: #75374F;
+}
+
+.button.light:hover {
+  background: #58283E;
+  color: white;
+}
+
+.button.ghost {
+  background: rgba(255,255,255,0.4);
+  color: #58283E;
+  border-color: #A36782;
+}
+
+.button.ghost:hover {
+  background: rgba(255,255,255,0.75);
+  color: #58283E;
+}
+
+/* SOFT ROUNDED CARDS */
+.card,
+.panel,
+.timeline-item,
+.award-card,
+.recognition-card {
+  background: var(--surface);
+  border-color: var(--border);
+  border-radius: 20px;
+}
+
+/* PROJECT FILTERS */
+.filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* AWARDS PAGE COLOURS */
+body .awards-page {
+  --award-maroon: #B65B82;
+  --award-dark: #75374F;
+  --award-light: #FCE8EF;
+  --award-border: #F0D7E1;
 }
